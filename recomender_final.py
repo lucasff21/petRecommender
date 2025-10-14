@@ -5,11 +5,6 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.compose import ColumnTransformer
 
 def preparar_dados(df_tutores, df_pets):
-    """
-    Versão final e simplificada da função de preparação de dados.
-    Agora que os nomes das colunas já vêm padronizados, não precisamos mais renomeá-los aqui.
-    """
-    
     # --- Engenharia de Features no DATAFRAME DE TUTORES ---
     # Este passo continua importante para "traduzir" o contexto do tutor em preferências numéricas.
     mapa_criancas = {'Não': 1, 'Crianças maiores': 4, 'Crianças pequenas': 5}
@@ -17,7 +12,7 @@ def preparar_dados(df_tutores, df_pets):
     df_tutores['sociabilidade_caes'] = df_tutores['possui_caes'].apply(lambda x: 5 if x else 3)
     df_tutores['sociabilidade_gatos'] = df_tutores['possui_gatos'].apply(lambda x: 5 if x else 3)
     df_tutores['treinabilidade'] = df_tutores['experiencia_com_pets']
-    df_tutores['necessidade_companhia'] = 6 - df_tutores['tempo_disponivel']
+    df_tutores['necessidade_companhia'] = df_tutores['tempo_disponivel']
     
     # --- Seleção Final das Colunas para o "Match" ---
     # Esta lista define exatamente quais características serão comparadas.

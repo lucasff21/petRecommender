@@ -1,0 +1,2 @@
+user_id,tipo_moradia,ambiente_casa,possui_caes,possui_gatos,tem_criancas,experiencia_com_pets,tempo_disponivel,disposicao_necessidades_especiais,pref_idade,pref_porte,pref_sexo,nivel_energia_desejado,necessidade_guarda_desejada,tolerancia_pelo,tolerancia_latido
+2,Casa com quintal,Calmo e silencioso,False,True,Não,5,4,False,Indiferente,Pequeno,Indiferente,3,1,4,1

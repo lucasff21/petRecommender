@@ -1,0 +1,501 @@
+pet_id,idade,sexo,porte,nivel_queda_pelo,nivel_latido,sociabilidade_gatos,sociabilidade_caes,sociabilidade_criancas,instinto_guarda,nivel_energia,saude,ambiente_adequado,necessidade_companhia,treinabilidade
+1,Idoso,Macho,Médio,3,2,5,5,1,4,2,Tratamento pontual,Flexível,4,3
+2,Filhote,Fêmea,Pequeno,3,3,1,2,1,2,1,Saudável,Casa com quintal,1,1
+3,Filhote,Macho,Grande,5,1,3,1,2,2,3,Saudável,Casa com quintal,5,5
+4,Adulto,Macho,Grande,2,3,1,1,1,2,1,Tratamento pontual,Casa (qualquer),1,1
+5,Idoso,Fêmea,Pequeno,3,4,1,5,1,3,1,Tratamento pontual,Casa com quintal,3,5
+6,Idoso,Fêmea,Médio,3,1,1,5,3,3,4,Tratamento pontual,Casa com quintal,1,2
+7,Filhote,Fêmea,Médio,3,2,4,3,5,2,4,Saudável,Flexível,4,2
+8,Idoso,Macho,Pequeno,3,3,4,1,3,2,2,Tratamento pontual,Casa (qualquer),4,5
+9,Adulto,Macho,Pequeno,2,4,1,2,5,1,3,Tratamento pontual,Casa (qualquer),3,4
+10,Idoso,Fêmea,Grande,2,3,5,4,3,1,3,Tratamento pontual,Apartamento,2,5
+11,Idoso,Macho,Médio,3,4,1,3,4,1,4,Requer cuidado especial,Flexível,1,2
+12,Idoso,Fêmea,Médio,5,5,1,5,2,2,5,Saudável,Casa com quintal,1,2
+13,Filhote,Fêmea,Grande,1,3,3,4,3,5,4,Tratamento pontual,Apartamento,5,1
+14,Filhote,Fêmea,Médio,3,4,2,2,3,1,4,Saudável,Apartamento,2,1
+15,Adulto,Fêmea,Grande,4,3,5,4,5,5,5,Saudável,Flexível,5,2
+16,Adulto,Fêmea,Grande,4,1,1,5,3,3,1,Requer cuidado especial,Flexível,5,3
+17,Idoso,Fêmea,Médio,2,5,2,5,4,1,1,Saudável,Casa com quintal,4,2
+18,Idoso,Macho,Grande,3,1,1,5,4,1,3,Tratamento pontual,Flexível,2,1
+19,Adulto,Fêmea,Médio,2,1,1,1,1,3,5,Requer cuidado especial,Casa com quintal,3,5
+20,Filhote,Fêmea,Médio,2,3,4,5,4,1,4,Saudável,Casa com quintal,2,2
+21,Idoso,Fêmea,Pequeno,1,2,1,2,5,5,3,Requer cuidado especial,Casa com quintal,5,5
+22,Adulto,Macho,Médio,3,1,4,4,3,2,3,Tratamento pontual,Casa (qualquer),3,5
+23,Idoso,Fêmea,Pequeno,3,3,4,4,5,2,2,Tratamento pontual,Flexível,3,4
+24,Adulto,Macho,Médio,4,1,2,4,3,5,2,Saudável,Apartamento,5,3
+25,Filhote,Macho,Grande,1,2,1,4,3,5,4,Requer cuidado especial,Flexível,1,2
+26,Filhote,Macho,Pequeno,5,5,2,5,1,3,3,Requer cuidado especial,Flexível,5,5
+27,Filhote,Macho,Pequeno,1,2,1,1,2,3,4,Requer cuidado especial,Apartamento,4,4
+28,Idoso,Macho,Pequeno,1,5,1,3,2,4,1,Saudável,Casa com quintal,3,4
+29,Filhote,Macho,Pequeno,5,4,5,1,2,5,5,Requer cuidado especial,Casa (qualquer),5,3
+30,Filhote,Macho,Grande,4,4,3,3,5,5,2,Saudável,Casa (qualquer),1,1
+31,Filhote,Macho,Grande,1,1,2,2,1,1,2,Tratamento pontual,Casa (qualquer),3,1
+32,Idoso,Macho,Grande,3,2,3,3,2,5,1,Requer cuidado especial,Casa (qualquer),5,1
+33,Adulto,Macho,Pequeno,3,4,2,3,3,2,4,Requer cuidado especial,Flexível,5,3
+34,Filhote,Fêmea,Pequeno,1,4,4,4,1,5,4,Requer cuidado especial,Casa com quintal,3,4
+35,Adulto,Fêmea,Médio,5,4,4,2,2,1,1,Saudável,Casa com quintal,5,2
+36,Idoso,Macho,Pequeno,3,1,5,1,5,1,3,Requer cuidado especial,Flexível,4,5
+37,Idoso,Fêmea,Médio,4,2,4,5,2,1,5,Saudável,Flexível,4,3
+38,Idoso,Fêmea,Grande,2,1,5,2,4,3,5,Saudável,Flexível,1,1
+39,Filhote,Fêmea,Médio,3,2,5,5,1,3,3,Tratamento pontual,Flexível,5,1
+40,Filhote,Macho,Grande,2,2,3,5,2,2,3,Requer cuidado especial,Casa com quintal,3,3
+41,Filhote,Fêmea,Grande,4,4,4,1,1,3,1,Tratamento pontual,Apartamento,4,5
+42,Filhote,Fêmea,Pequeno,2,3,4,2,4,2,3,Saudável,Apartamento,1,5
+43,Adulto,Fêmea,Médio,2,3,5,1,2,2,4,Requer cuidado especial,Casa com quintal,5,5
+44,Adulto,Macho,Pequeno,5,1,2,3,2,2,4,Tratamento pontual,Casa (qualquer),4,2
+45,Adulto,Macho,Médio,2,5,3,2,4,1,5,Requer cuidado especial,Casa (qualquer),3,1
+46,Filhote,Macho,Grande,3,4,5,4,3,4,3,Tratamento pontual,Casa (qualquer),1,1
+47,Adulto,Fêmea,Pequeno,3,1,3,1,1,4,2,Tratamento pontual,Apartamento,3,5
+48,Filhote,Macho,Médio,4,5,5,5,2,3,5,Requer cuidado especial,Apartamento,1,2
+49,Idoso,Macho,Médio,2,3,5,4,1,3,3,Saudável,Flexível,3,4
+50,Idoso,Macho,Médio,2,2,3,2,3,5,2,Requer cuidado especial,Flexível,1,2
+51,Idoso,Fêmea,Grande,4,5,4,2,5,3,4,Saudável,Flexível,5,4
+52,Filhote,Macho,Pequeno,2,2,5,2,3,2,2,Requer cuidado especial,Casa (qualquer),4,4
+53,Adulto,Macho,Médio,4,3,5,5,1,2,5,Tratamento pontual,Casa com quintal,1,3
+54,Filhote,Fêmea,Pequeno,4,4,3,2,4,4,2,Requer cuidado especial,Casa (qualquer),5,5
+55,Filhote,Fêmea,Grande,4,2,2,5,1,1,3,Saudável,Casa com quintal,3,4
+56,Adulto,Fêmea,Médio,5,2,3,3,3,2,1,Requer cuidado especial,Apartamento,3,4
+57,Filhote,Fêmea,Médio,4,1,2,2,1,4,5,Tratamento pontual,Casa com quintal,4,3
+58,Idoso,Macho,Pequeno,5,2,3,5,5,3,5,Saudável,Flexível,3,5
+59,Adulto,Macho,Grande,4,5,4,3,1,3,5,Tratamento pontual,Flexível,3,5
+60,Idoso,Macho,Grande,5,4,5,2,4,3,4,Saudável,Apartamento,3,5
+61,Filhote,Fêmea,Grande,2,5,2,1,3,2,3,Tratamento pontual,Casa (qualquer),2,4
+62,Adulto,Fêmea,Pequeno,3,5,4,1,1,2,1,Tratamento pontual,Casa (qualquer),5,5
+63,Filhote,Fêmea,Grande,2,4,1,4,4,3,5,Tratamento pontual,Flexível,2,3
+64,Filhote,Fêmea,Pequeno,4,1,4,5,2,5,2,Tratamento pontual,Flexível,1,5
+65,Adulto,Macho,Grande,5,4,2,5,1,4,3,Tratamento pontual,Apartamento,2,4
+66,Filhote,Macho,Grande,1,3,1,2,3,1,3,Saudável,Apartamento,4,2
+67,Idoso,Macho,Médio,1,5,5,1,3,3,3,Requer cuidado especial,Casa com quintal,4,5
+68,Filhote,Fêmea,Pequeno,2,3,1,2,5,1,1,Requer cuidado especial,Apartamento,3,3
+69,Filhote,Macho,Grande,5,1,5,1,4,5,4,Saudável,Casa com quintal,5,2
+70,Idoso,Fêmea,Médio,3,3,2,1,4,5,3,Saudável,Casa (qualquer),3,2
+71,Idoso,Fêmea,Médio,5,3,3,1,5,4,4,Saudável,Casa (qualquer),2,5
+72,Idoso,Macho,Grande,3,1,4,5,1,3,4,Saudável,Casa (qualquer),3,5
+73,Idoso,Fêmea,Grande,1,5,5,2,5,4,5,Saudável,Casa com quintal,2,1
+74,Adulto,Macho,Grande,3,5,3,3,3,2,5,Tratamento pontual,Casa com quintal,1,3
+75,Adulto,Macho,Pequeno,3,1,2,1,3,2,3,Saudável,Casa (qualquer),3,5
+76,Filhote,Macho,Pequeno,2,4,4,2,4,4,2,Saudável,Casa com quintal,4,2
+77,Adulto,Macho,Médio,5,2,1,5,3,4,5,Tratamento pontual,Flexível,4,1
+78,Filhote,Macho,Grande,4,5,2,2,5,4,5,Saudável,Flexível,1,4
+79,Idoso,Fêmea,Grande,3,2,1,4,3,3,4,Tratamento pontual,Casa com quintal,5,5
+80,Idoso,Macho,Pequeno,5,1,4,1,4,2,3,Requer cuidado especial,Casa (qualquer),1,2
+81,Filhote,Macho,Grande,4,3,1,2,3,3,3,Saudável,Casa (qualquer),5,1
+82,Adulto,Macho,Grande,3,2,3,2,3,1,1,Requer cuidado especial,Casa (qualquer),4,2
+83,Filhote,Macho,Médio,1,2,1,1,4,3,2,Tratamento pontual,Flexível,4,4
+84,Idoso,Fêmea,Pequeno,3,4,3,2,2,3,5,Requer cuidado especial,Casa com quintal,4,1
+85,Filhote,Fêmea,Médio,1,3,3,4,4,1,4,Tratamento pontual,Apartamento,4,2
+86,Adulto,Fêmea,Pequeno,3,3,1,2,5,4,4,Requer cuidado especial,Apartamento,2,1
+87,Filhote,Fêmea,Grande,4,5,5,1,3,3,5,Tratamento pontual,Flexível,3,5
+88,Idoso,Macho,Grande,1,3,2,1,5,3,3,Requer cuidado especial,Casa (qualquer),5,1
+89,Adulto,Fêmea,Grande,3,1,5,2,1,2,4,Tratamento pontual,Casa com quintal,5,3
+90,Idoso,Fêmea,Pequeno,4,2,1,3,5,2,4,Tratamento pontual,Casa com quintal,3,1
+91,Adulto,Macho,Médio,3,5,1,4,2,2,4,Saudável,Casa (qualquer),2,3
+92,Idoso,Macho,Pequeno,2,4,1,2,1,1,1,Tratamento pontual,Apartamento,1,4
+93,Filhote,Fêmea,Grande,4,1,5,5,2,2,5,Tratamento pontual,Casa com quintal,5,5
+94,Idoso,Fêmea,Médio,1,1,3,3,3,5,4,Requer cuidado especial,Casa com quintal,5,1
+95,Idoso,Fêmea,Pequeno,1,2,3,3,3,1,2,Saudável,Casa (qualquer),4,2
+96,Filhote,Fêmea,Pequeno,2,1,3,3,4,4,4,Tratamento pontual,Flexível,5,2
+97,Adulto,Macho,Grande,3,5,3,4,4,4,4,Saudável,Casa (qualquer),3,1
+98,Adulto,Macho,Grande,2,5,2,2,1,2,2,Saudável,Apartamento,1,5
+99,Adulto,Macho,Médio,5,3,1,3,2,4,2,Requer cuidado especial,Apartamento,1,2
+100,Filhote,Fêmea,Pequeno,2,3,2,2,5,3,1,Tratamento pontual,Flexível,5,3
+101,Filhote,Fêmea,Grande,5,5,4,3,4,1,4,Saudável,Casa com quintal,4,2
+102,Filhote,Macho,Médio,5,2,4,5,1,4,2,Saudável,Flexível,2,2
+103,Adulto,Macho,Pequeno,2,4,2,5,2,5,4,Requer cuidado especial,Apartamento,1,3
+104,Adulto,Macho,Pequeno,1,1,2,2,2,4,1,Requer cuidado especial,Casa com quintal,2,4
+105,Idoso,Fêmea,Pequeno,4,1,5,3,4,5,5,Saudável,Casa com quintal,4,5
+106,Filhote,Macho,Médio,4,4,3,3,5,4,3,Saudável,Casa com quintal,1,2
+107,Adulto,Fêmea,Médio,4,5,1,1,5,1,1,Tratamento pontual,Casa (qualquer),4,2
+108,Filhote,Macho,Pequeno,4,3,4,4,5,1,5,Tratamento pontual,Apartamento,5,4
+109,Idoso,Fêmea,Médio,5,1,4,1,4,3,5,Tratamento pontual,Flexível,1,5
+110,Adulto,Fêmea,Pequeno,4,3,4,5,2,4,4,Tratamento pontual,Flexível,1,2
+111,Idoso,Fêmea,Médio,3,5,2,3,4,1,1,Tratamento pontual,Casa com quintal,2,4
+112,Idoso,Macho,Pequeno,2,1,4,5,1,3,4,Saudável,Casa com quintal,2,3
+113,Idoso,Fêmea,Médio,3,1,1,2,5,1,5,Tratamento pontual,Apartamento,4,5
+114,Adulto,Fêmea,Grande,4,5,2,1,1,1,4,Saudável,Flexível,1,3
+115,Filhote,Macho,Pequeno,2,3,4,2,3,2,3,Requer cuidado especial,Apartamento,5,4
+116,Adulto,Fêmea,Médio,4,3,5,2,3,3,4,Tratamento pontual,Casa (qualquer),1,1
+117,Adulto,Macho,Grande,4,2,4,4,4,2,5,Saudável,Apartamento,3,1
+118,Filhote,Fêmea,Médio,1,5,3,2,5,3,1,Tratamento pontual,Casa com quintal,2,4
+119,Idoso,Fêmea,Médio,5,2,4,4,2,4,2,Saudável,Apartamento,2,2
+120,Idoso,Macho,Grande,1,4,2,5,4,3,5,Saudável,Apartamento,4,1
+121,Adulto,Fêmea,Pequeno,4,4,5,3,5,4,5,Requer cuidado especial,Apartamento,1,3
+122,Filhote,Fêmea,Médio,1,5,4,2,4,2,2,Tratamento pontual,Casa com quintal,1,5
+123,Adulto,Macho,Pequeno,3,2,2,4,3,1,1,Tratamento pontual,Flexível,5,2
+124,Adulto,Fêmea,Médio,1,5,2,4,3,3,3,Requer cuidado especial,Flexível,2,3
+125,Idoso,Fêmea,Grande,3,4,5,1,3,4,4,Tratamento pontual,Apartamento,4,2
+126,Idoso,Fêmea,Grande,4,3,5,2,5,4,4,Requer cuidado especial,Casa (qualquer),3,4
+127,Idoso,Macho,Médio,4,5,4,2,1,2,4,Tratamento pontual,Flexível,5,4
+128,Filhote,Macho,Grande,1,2,1,5,3,4,3,Saudável,Flexível,3,4
+129,Adulto,Fêmea,Médio,3,4,2,2,1,1,2,Requer cuidado especial,Apartamento,3,5
+130,Filhote,Macho,Grande,4,1,1,2,5,5,3,Tratamento pontual,Apartamento,2,1
+131,Idoso,Macho,Grande,5,2,4,2,3,3,1,Requer cuidado especial,Casa (qualquer),5,3
+132,Idoso,Macho,Grande,1,4,4,4,1,4,3,Saudável,Casa com quintal,5,5
+133,Filhote,Macho,Médio,5,2,1,2,5,5,4,Tratamento pontual,Flexível,4,4
+134,Idoso,Macho,Médio,3,4,5,4,4,4,3,Tratamento pontual,Apartamento,4,5
+135,Filhote,Macho,Pequeno,2,5,1,3,2,5,4,Saudável,Casa com quintal,5,5
+136,Idoso,Macho,Grande,2,3,3,3,2,3,3,Tratamento pontual,Flexível,5,4
+137,Filhote,Macho,Grande,4,3,4,5,1,2,2,Tratamento pontual,Apartamento,2,4
+138,Filhote,Fêmea,Grande,4,2,1,5,4,2,4,Tratamento pontual,Flexível,5,2
+139,Adulto,Fêmea,Médio,3,1,2,4,3,1,2,Requer cuidado especial,Casa (qualquer),2,1
+140,Idoso,Macho,Pequeno,4,5,3,4,5,3,2,Saudável,Casa com quintal,2,1
+141,Adulto,Fêmea,Médio,4,2,3,1,1,3,2,Requer cuidado especial,Casa com quintal,4,1
+142,Idoso,Macho,Pequeno,3,1,4,1,5,3,3,Requer cuidado especial,Casa com quintal,3,4
+143,Adulto,Macho,Médio,1,2,2,1,1,1,1,Requer cuidado especial,Casa (qualquer),4,1
+144,Idoso,Fêmea,Pequeno,3,4,5,3,5,1,4,Saudável,Flexível,5,4
+145,Adulto,Fêmea,Pequeno,3,2,3,5,1,5,4,Requer cuidado especial,Apartamento,1,2
+146,Filhote,Fêmea,Grande,5,3,2,4,2,1,1,Saudável,Flexível,1,5
+147,Idoso,Fêmea,Médio,5,1,5,5,3,2,4,Requer cuidado especial,Casa com quintal,3,5
+148,Filhote,Macho,Pequeno,4,3,2,1,5,3,4,Tratamento pontual,Casa (qualquer),2,2
+149,Filhote,Fêmea,Grande,5,5,3,5,4,4,1,Tratamento pontual,Apartamento,5,1
+150,Filhote,Macho,Grande,4,3,3,2,4,1,5,Tratamento pontual,Casa com quintal,3,1
+151,Adulto,Fêmea,Grande,4,4,5,2,3,4,1,Requer cuidado especial,Casa com quintal,3,2
+152,Adulto,Fêmea,Grande,4,2,3,4,2,3,5,Saudável,Casa com quintal,1,5
+153,Idoso,Fêmea,Pequeno,5,5,5,2,3,1,2,Tratamento pontual,Casa com quintal,2,3
+154,Filhote,Macho,Grande,4,2,3,1,3,3,4,Tratamento pontual,Flexível,5,5
+155,Filhote,Fêmea,Grande,3,4,1,4,1,4,1,Saudável,Casa com quintal,2,2
+156,Adulto,Macho,Grande,5,3,5,3,3,5,3,Requer cuidado especial,Casa (qualquer),5,4
+157,Filhote,Fêmea,Médio,4,4,1,1,5,5,4,Saudável,Casa com quintal,5,3
+158,Adulto,Fêmea,Médio,5,4,5,1,1,5,5,Saudável,Apartamento,1,1
+159,Idoso,Macho,Pequeno,2,1,2,5,4,1,4,Saudável,Casa (qualquer),3,3
+160,Adulto,Macho,Pequeno,3,4,5,3,3,3,2,Saudável,Flexível,4,4
+161,Filhote,Fêmea,Grande,5,3,3,4,2,1,5,Tratamento pontual,Apartamento,5,3
+162,Adulto,Fêmea,Pequeno,5,2,4,3,1,5,2,Requer cuidado especial,Flexível,5,4
+163,Idoso,Macho,Pequeno,4,3,4,1,4,5,4,Saudável,Apartamento,1,3
+164,Filhote,Macho,Pequeno,3,1,2,3,5,1,5,Tratamento pontual,Flexível,5,3
+165,Filhote,Macho,Pequeno,2,3,1,1,2,3,5,Requer cuidado especial,Casa (qualquer),4,2
+166,Idoso,Fêmea,Pequeno,1,2,1,3,5,4,4,Requer cuidado especial,Flexível,3,3
+167,Adulto,Macho,Pequeno,2,2,1,5,4,5,3,Saudável,Apartamento,2,4
+168,Adulto,Macho,Grande,2,5,5,5,5,4,1,Requer cuidado especial,Casa com quintal,5,2
+169,Idoso,Macho,Médio,1,1,1,3,4,3,4,Saudável,Flexível,2,1
+170,Filhote,Macho,Pequeno,2,2,4,4,1,4,5,Saudável,Apartamento,5,2
+171,Idoso,Fêmea,Médio,3,2,4,5,2,1,3,Tratamento pontual,Casa (qualquer),2,3
+172,Filhote,Fêmea,Grande,5,1,4,1,5,5,4,Requer cuidado especial,Flexível,1,3
+173,Idoso,Macho,Médio,5,1,2,3,1,2,2,Saudável,Casa com quintal,5,5
+174,Filhote,Macho,Médio,5,4,2,3,2,3,4,Requer cuidado especial,Apartamento,1,1
+175,Filhote,Macho,Pequeno,4,2,5,1,3,5,4,Tratamento pontual,Apartamento,2,4
+176,Adulto,Macho,Pequeno,4,3,4,5,2,2,3,Requer cuidado especial,Casa (qualquer),3,4
+177,Filhote,Fêmea,Médio,2,4,1,5,4,5,4,Requer cuidado especial,Flexível,2,2
+178,Filhote,Fêmea,Pequeno,2,5,4,2,2,3,1,Requer cuidado especial,Apartamento,1,1
+179,Adulto,Macho,Médio,3,4,2,4,5,3,5,Saudável,Casa (qualquer),4,2
+180,Filhote,Macho,Grande,4,1,2,2,4,4,4,Tratamento pontual,Flexível,4,3
+181,Idoso,Macho,Grande,1,5,3,2,1,2,1,Requer cuidado especial,Casa com quintal,2,3
+182,Adulto,Fêmea,Pequeno,4,4,5,1,5,2,4,Saudável,Casa com quintal,1,1
+183,Idoso,Fêmea,Médio,2,2,3,5,3,5,5,Tratamento pontual,Flexível,1,1
+184,Adulto,Fêmea,Médio,2,4,3,5,3,3,5,Tratamento pontual,Flexível,5,1
+185,Adulto,Macho,Médio,4,4,5,5,1,5,2,Saudável,Flexível,5,2
+186,Idoso,Macho,Pequeno,1,3,4,3,2,4,5,Tratamento pontual,Casa (qualquer),5,5
+187,Filhote,Macho,Grande,3,2,3,5,1,5,3,Requer cuidado especial,Casa com quintal,4,4
+188,Adulto,Macho,Grande,3,5,4,3,3,4,5,Tratamento pontual,Casa (qualquer),2,5
+189,Filhote,Macho,Grande,4,3,1,5,1,3,5,Saudável,Casa com quintal,2,3
+190,Idoso,Fêmea,Grande,5,1,4,3,1,5,3,Requer cuidado especial,Casa (qualquer),5,2
+191,Filhote,Macho,Médio,3,1,3,5,2,4,3,Saudável,Casa (qualquer),3,2
+192,Idoso,Macho,Pequeno,4,4,2,5,3,1,3,Tratamento pontual,Casa (qualquer),5,2
+193,Idoso,Fêmea,Pequeno,5,3,3,1,1,4,2,Tratamento pontual,Apartamento,3,3
+194,Adulto,Macho,Pequeno,2,2,5,4,2,2,4,Tratamento pontual,Apartamento,5,2
+195,Idoso,Fêmea,Grande,2,3,5,3,4,3,3,Requer cuidado especial,Casa com quintal,3,1
+196,Idoso,Fêmea,Pequeno,4,3,3,2,1,3,2,Saudável,Casa com quintal,5,1
+197,Adulto,Macho,Grande,5,3,2,2,2,1,2,Tratamento pontual,Apartamento,1,3
+198,Idoso,Macho,Médio,4,1,3,1,2,5,2,Requer cuidado especial,Casa com quintal,4,4
+199,Idoso,Macho,Pequeno,2,1,2,5,5,5,2,Saudável,Casa com quintal,3,5
+200,Filhote,Macho,Médio,1,1,2,2,3,4,1,Tratamento pontual,Casa (qualquer),4,3
+201,Adulto,Macho,Grande,4,2,2,3,1,2,5,Requer cuidado especial,Casa com quintal,4,2
+202,Idoso,Macho,Médio,1,1,4,4,3,1,3,Requer cuidado especial,Casa com quintal,2,3
+203,Idoso,Fêmea,Médio,2,3,2,4,5,4,4,Saudável,Casa (qualquer),1,5
+204,Filhote,Macho,Grande,4,2,1,1,1,3,5,Tratamento pontual,Flexível,4,3
+205,Adulto,Fêmea,Médio,1,3,1,5,4,3,1,Saudável,Flexível,2,3
+206,Idoso,Fêmea,Grande,3,3,1,5,3,3,1,Tratamento pontual,Casa (qualquer),4,3
+207,Adulto,Fêmea,Pequeno,5,5,4,5,4,5,3,Requer cuidado especial,Apartamento,5,2
+208,Filhote,Fêmea,Grande,3,4,4,4,5,1,5,Tratamento pontual,Flexível,1,3
+209,Idoso,Macho,Pequeno,4,1,2,2,1,3,2,Saudável,Casa (qualquer),5,5
+210,Filhote,Macho,Pequeno,4,4,1,4,2,4,1,Requer cuidado especial,Apartamento,2,1
+211,Filhote,Macho,Médio,5,2,4,1,5,1,2,Saudável,Casa com quintal,1,2
+212,Filhote,Macho,Grande,2,2,1,4,4,2,3,Tratamento pontual,Flexível,1,4
+213,Adulto,Fêmea,Grande,1,2,1,5,4,3,3,Saudável,Flexível,4,5
+214,Filhote,Fêmea,Grande,4,2,1,4,3,1,2,Tratamento pontual,Flexível,5,3
+215,Filhote,Macho,Pequeno,5,5,2,3,2,4,3,Tratamento pontual,Casa com quintal,1,5
+216,Idoso,Macho,Pequeno,5,4,1,1,3,4,3,Tratamento pontual,Casa (qualquer),3,5
+217,Idoso,Fêmea,Pequeno,3,3,2,1,1,5,1,Requer cuidado especial,Casa com quintal,2,5
+218,Filhote,Macho,Pequeno,2,5,4,2,5,1,5,Saudável,Flexível,1,1
+219,Adulto,Macho,Pequeno,1,1,1,5,3,2,1,Tratamento pontual,Apartamento,4,4
+220,Idoso,Fêmea,Grande,1,5,3,4,1,3,2,Saudável,Apartamento,2,1
+221,Filhote,Fêmea,Pequeno,3,3,4,2,3,1,5,Requer cuidado especial,Casa (qualquer),5,1
+222,Adulto,Fêmea,Médio,2,4,2,4,1,4,1,Requer cuidado especial,Flexível,3,2
+223,Filhote,Fêmea,Pequeno,2,2,4,5,5,1,5,Requer cuidado especial,Casa com quintal,5,2
+224,Idoso,Macho,Pequeno,3,4,1,3,4,3,4,Requer cuidado especial,Casa com quintal,4,4
+225,Adulto,Fêmea,Médio,4,3,3,1,1,4,1,Requer cuidado especial,Casa com quintal,4,4
+226,Adulto,Macho,Pequeno,1,4,2,1,4,4,2,Saudável,Flexível,5,2
+227,Filhote,Macho,Médio,5,4,1,5,3,4,1,Requer cuidado especial,Flexível,1,1
+228,Adulto,Macho,Pequeno,2,3,4,5,5,2,2,Requer cuidado especial,Flexível,1,1
+229,Adulto,Fêmea,Pequeno,3,4,2,1,5,3,5,Requer cuidado especial,Flexível,4,2
+230,Filhote,Macho,Grande,5,1,5,5,4,2,2,Requer cuidado especial,Casa (qualquer),4,5
+231,Filhote,Macho,Pequeno,3,1,4,5,2,3,1,Tratamento pontual,Casa com quintal,1,1
+232,Idoso,Fêmea,Grande,1,3,3,5,5,3,4,Requer cuidado especial,Apartamento,5,1
+233,Adulto,Fêmea,Pequeno,1,1,1,5,3,5,2,Requer cuidado especial,Apartamento,5,3
+234,Filhote,Macho,Pequeno,3,4,5,3,2,4,3,Saudável,Apartamento,4,3
+235,Idoso,Macho,Pequeno,3,3,1,5,1,5,3,Tratamento pontual,Apartamento,5,5
+236,Adulto,Fêmea,Pequeno,2,4,1,4,5,4,2,Tratamento pontual,Casa com quintal,1,1
+237,Adulto,Fêmea,Grande,3,3,2,1,2,4,4,Saudável,Casa com quintal,1,3
+238,Idoso,Fêmea,Pequeno,1,4,5,1,5,2,1,Requer cuidado especial,Casa (qualquer),3,1
+239,Idoso,Macho,Pequeno,3,4,1,4,3,5,4,Tratamento pontual,Flexível,3,4
+240,Filhote,Macho,Médio,5,4,5,2,5,2,5,Tratamento pontual,Casa (qualquer),1,4
+241,Adulto,Fêmea,Médio,4,2,4,2,4,3,1,Tratamento pontual,Casa (qualquer),2,1
+242,Adulto,Fêmea,Médio,4,1,3,3,2,3,3,Tratamento pontual,Apartamento,1,3
+243,Idoso,Fêmea,Pequeno,5,2,1,5,1,1,4,Saudável,Casa (qualquer),5,5
+244,Filhote,Fêmea,Médio,4,4,5,1,5,3,5,Tratamento pontual,Casa com quintal,2,2
+245,Adulto,Fêmea,Grande,2,1,3,3,5,2,3,Tratamento pontual,Casa com quintal,2,4
+246,Idoso,Fêmea,Grande,5,2,2,1,4,5,1,Tratamento pontual,Casa com quintal,1,5
+247,Adulto,Fêmea,Grande,2,3,5,1,4,3,3,Saudável,Apartamento,2,2
+248,Idoso,Fêmea,Grande,4,1,1,3,5,3,5,Tratamento pontual,Flexível,2,5
+249,Filhote,Fêmea,Pequeno,3,5,2,1,5,2,3,Requer cuidado especial,Casa com quintal,5,2
+250,Idoso,Macho,Grande,1,5,3,1,4,2,2,Requer cuidado especial,Casa (qualquer),4,3
+251,Filhote,Macho,Médio,4,3,1,2,1,3,5,Tratamento pontual,Apartamento,1,5
+252,Idoso,Macho,Grande,3,2,4,5,1,3,5,Saudável,Casa (qualquer),2,1
+253,Adulto,Fêmea,Médio,1,5,3,2,2,5,5,Saudável,Flexível,3,1
+254,Adulto,Fêmea,Pequeno,3,2,4,2,1,3,4,Tratamento pontual,Casa (qualquer),5,2
+255,Idoso,Macho,Médio,1,3,2,2,3,1,1,Tratamento pontual,Flexível,4,1
+256,Adulto,Macho,Médio,4,1,5,1,1,4,2,Saudável,Casa com quintal,1,2
+257,Adulto,Fêmea,Pequeno,1,4,3,3,1,4,4,Saudável,Apartamento,5,3
+258,Filhote,Fêmea,Pequeno,5,1,3,4,5,4,3,Saudável,Apartamento,2,2
+259,Adulto,Fêmea,Grande,2,2,3,4,3,2,4,Requer cuidado especial,Casa com quintal,5,4
+260,Filhote,Macho,Pequeno,3,1,1,5,3,5,5,Requer cuidado especial,Casa (qualquer),3,5
+261,Adulto,Macho,Grande,2,3,5,3,2,1,1,Saudável,Casa com quintal,5,4
+262,Adulto,Fêmea,Pequeno,5,3,1,5,5,5,2,Saudável,Casa com quintal,5,2
+263,Idoso,Fêmea,Médio,1,4,4,3,1,5,1,Requer cuidado especial,Flexível,3,1
+264,Adulto,Fêmea,Médio,4,1,2,3,2,3,3,Tratamento pontual,Apartamento,3,5
+265,Idoso,Macho,Grande,4,2,4,3,3,1,1,Tratamento pontual,Casa (qualquer),3,5
+266,Filhote,Fêmea,Grande,4,2,1,3,2,4,2,Requer cuidado especial,Apartamento,3,5
+267,Filhote,Fêmea,Médio,1,4,1,3,1,2,2,Requer cuidado especial,Casa com quintal,3,3
+268,Idoso,Macho,Médio,4,1,5,5,2,5,4,Saudável,Casa (qualquer),2,3
+269,Filhote,Fêmea,Grande,4,5,3,5,5,3,1,Requer cuidado especial,Casa (qualquer),3,4
+270,Idoso,Macho,Grande,1,3,5,3,5,3,1,Saudável,Apartamento,3,4
+271,Filhote,Fêmea,Pequeno,2,4,5,1,3,1,4,Tratamento pontual,Flexível,2,2
+272,Filhote,Macho,Médio,5,3,1,2,4,4,2,Requer cuidado especial,Casa (qualquer),5,1
+273,Adulto,Fêmea,Médio,3,3,5,5,4,4,3,Tratamento pontual,Flexível,5,1
+274,Adulto,Macho,Grande,4,1,3,4,2,5,2,Saudável,Casa com quintal,2,4
+275,Filhote,Fêmea,Grande,5,1,4,1,2,5,1,Tratamento pontual,Casa (qualquer),5,5
+276,Adulto,Fêmea,Médio,5,2,5,4,2,1,2,Requer cuidado especial,Apartamento,3,3
+277,Filhote,Fêmea,Médio,2,3,4,3,2,3,2,Saudável,Flexível,4,2
+278,Idoso,Fêmea,Grande,5,4,4,3,4,4,1,Tratamento pontual,Casa (qualquer),2,5
+279,Filhote,Macho,Pequeno,3,5,3,3,1,2,4,Tratamento pontual,Casa com quintal,2,5
+280,Filhote,Fêmea,Pequeno,1,4,5,2,3,2,3,Tratamento pontual,Casa com quintal,4,4
+281,Adulto,Macho,Grande,3,2,5,5,2,3,3,Tratamento pontual,Casa (qualquer),4,1
+282,Filhote,Macho,Grande,3,1,5,4,5,4,4,Saudável,Casa (qualquer),4,2
+283,Idoso,Fêmea,Pequeno,3,5,2,1,3,5,3,Tratamento pontual,Apartamento,1,2
+284,Adulto,Fêmea,Pequeno,5,2,4,4,3,5,4,Tratamento pontual,Flexível,2,5
+285,Filhote,Fêmea,Grande,4,3,1,4,3,2,2,Requer cuidado especial,Casa com quintal,5,4
+286,Filhote,Macho,Médio,2,1,2,4,1,2,5,Tratamento pontual,Casa com quintal,4,3
+287,Filhote,Macho,Médio,4,3,5,4,1,1,1,Saudável,Casa com quintal,5,5
+288,Adulto,Macho,Médio,2,1,1,3,2,5,3,Tratamento pontual,Apartamento,3,3
+289,Filhote,Macho,Grande,3,2,1,3,1,5,4,Tratamento pontual,Apartamento,4,3
+290,Idoso,Macho,Grande,3,5,2,2,5,4,3,Saudável,Casa (qualquer),4,5
+291,Idoso,Fêmea,Médio,4,5,4,4,5,3,1,Requer cuidado especial,Casa com quintal,5,3
+292,Idoso,Fêmea,Médio,4,1,4,4,4,2,1,Requer cuidado especial,Casa com quintal,3,3
+293,Filhote,Fêmea,Pequeno,4,4,5,5,3,1,2,Requer cuidado especial,Apartamento,2,5
+294,Filhote,Macho,Pequeno,2,4,1,5,2,5,2,Tratamento pontual,Apartamento,3,4
+295,Adulto,Fêmea,Grande,2,4,5,5,5,4,4,Saudável,Flexível,1,1
+296,Filhote,Macho,Grande,5,2,5,1,2,1,2,Tratamento pontual,Apartamento,5,2
+297,Filhote,Fêmea,Grande,2,1,3,4,5,3,4,Saudável,Flexível,4,5
+298,Idoso,Macho,Pequeno,5,2,1,1,4,5,5,Tratamento pontual,Flexível,5,3
+299,Idoso,Fêmea,Médio,5,2,4,2,4,5,3,Saudável,Casa com quintal,1,4
+300,Filhote,Fêmea,Médio,2,2,1,2,1,1,1,Requer cuidado especial,Apartamento,2,5
+301,Idoso,Macho,Pequeno,2,2,3,4,4,3,2,Saudável,Casa com quintal,2,2
+302,Filhote,Fêmea,Pequeno,2,3,3,2,1,4,1,Saudável,Flexível,3,1
+303,Adulto,Fêmea,Pequeno,1,1,5,5,3,2,4,Tratamento pontual,Casa (qualquer),3,1
+304,Adulto,Macho,Pequeno,2,4,3,3,5,4,4,Saudável,Casa com quintal,4,3
+305,Idoso,Fêmea,Grande,2,2,2,2,2,5,4,Requer cuidado especial,Flexível,2,2
+306,Filhote,Fêmea,Pequeno,3,4,3,4,4,1,5,Saudável,Flexível,1,4
+307,Adulto,Macho,Médio,1,5,5,3,5,3,2,Saudável,Flexível,3,1
+308,Adulto,Fêmea,Médio,2,5,2,4,1,3,1,Tratamento pontual,Casa (qualquer),1,4
+309,Adulto,Fêmea,Médio,4,4,2,3,4,3,5,Saudável,Flexível,2,1
+310,Adulto,Fêmea,Médio,3,5,5,2,1,4,3,Tratamento pontual,Casa com quintal,3,4
+311,Idoso,Macho,Pequeno,1,2,5,2,1,5,5,Tratamento pontual,Casa (qualquer),1,3
+312,Adulto,Fêmea,Grande,4,1,4,1,3,4,2,Requer cuidado especial,Flexível,1,4
+313,Filhote,Macho,Pequeno,1,5,4,5,3,4,5,Requer cuidado especial,Casa (qualquer),2,3
+314,Filhote,Fêmea,Pequeno,3,4,5,1,2,1,5,Tratamento pontual,Apartamento,2,5
+315,Filhote,Fêmea,Médio,2,2,1,4,4,2,5,Saudável,Apartamento,3,1
+316,Adulto,Macho,Médio,1,5,3,3,4,5,1,Requer cuidado especial,Apartamento,5,4
+317,Idoso,Macho,Pequeno,1,3,5,2,5,1,5,Tratamento pontual,Flexível,3,5
+318,Idoso,Fêmea,Grande,2,4,3,5,4,3,3,Saudável,Casa (qualquer),5,2
+319,Adulto,Macho,Grande,1,2,2,2,1,3,2,Requer cuidado especial,Flexível,5,3
+320,Adulto,Fêmea,Médio,4,5,1,3,3,2,4,Requer cuidado especial,Casa (qualquer),2,1
+321,Idoso,Macho,Pequeno,3,3,4,5,1,4,4,Tratamento pontual,Casa com quintal,4,1
+322,Idoso,Macho,Grande,1,2,1,3,5,1,4,Requer cuidado especial,Casa (qualquer),2,4
+323,Filhote,Fêmea,Grande,2,2,5,5,3,1,2,Requer cuidado especial,Flexível,3,2
+324,Idoso,Fêmea,Médio,3,2,3,3,3,2,1,Saudável,Casa (qualquer),3,2
+325,Adulto,Fêmea,Médio,4,5,4,4,1,4,5,Tratamento pontual,Flexível,5,5
+326,Adulto,Macho,Grande,5,3,4,3,4,5,1,Requer cuidado especial,Flexível,3,2
+327,Idoso,Macho,Pequeno,2,1,5,2,5,5,4,Saudável,Casa (qualquer),5,1
+328,Idoso,Macho,Grande,2,3,1,1,3,3,3,Requer cuidado especial,Casa com quintal,3,2
+329,Filhote,Fêmea,Grande,1,1,3,3,3,4,2,Tratamento pontual,Casa (qualquer),2,3
+330,Adulto,Macho,Pequeno,3,3,1,1,4,5,4,Tratamento pontual,Casa com quintal,4,5
+331,Adulto,Fêmea,Médio,1,3,5,4,1,5,3,Requer cuidado especial,Apartamento,3,4
+332,Adulto,Macho,Médio,3,1,5,5,5,2,4,Saudável,Casa (qualquer),2,1
+333,Adulto,Macho,Pequeno,5,1,2,2,1,4,2,Requer cuidado especial,Casa com quintal,3,4
+334,Idoso,Macho,Pequeno,1,2,5,4,4,2,2,Requer cuidado especial,Apartamento,5,3
+335,Adulto,Fêmea,Grande,5,3,5,3,4,2,1,Tratamento pontual,Casa com quintal,3,5
+336,Adulto,Fêmea,Pequeno,4,1,4,2,4,3,5,Saudável,Casa (qualquer),2,1
+337,Filhote,Macho,Médio,3,3,5,3,3,2,4,Requer cuidado especial,Flexível,3,5
+338,Filhote,Macho,Grande,2,5,2,2,3,5,4,Requer cuidado especial,Casa com quintal,4,1
+339,Adulto,Macho,Médio,5,1,2,4,1,4,5,Saudável,Flexível,3,2
+340,Filhote,Macho,Grande,2,4,1,1,5,1,1,Tratamento pontual,Casa (qualquer),3,1
+341,Filhote,Fêmea,Pequeno,3,3,4,3,4,3,2,Saudável,Apartamento,4,4
+342,Idoso,Fêmea,Pequeno,2,5,1,2,2,1,5,Tratamento pontual,Casa (qualquer),1,2
+343,Idoso,Macho,Pequeno,4,4,1,4,1,2,2,Tratamento pontual,Apartamento,1,5
+344,Filhote,Fêmea,Pequeno,4,5,3,3,2,1,2,Requer cuidado especial,Flexível,2,3
+345,Filhote,Fêmea,Pequeno,4,5,1,2,5,2,1,Saudável,Apartamento,3,5
+346,Idoso,Fêmea,Pequeno,3,4,2,2,2,3,3,Saudável,Casa com quintal,2,5
+347,Filhote,Macho,Médio,2,5,1,2,3,4,2,Requer cuidado especial,Casa (qualquer),4,5
+348,Idoso,Macho,Grande,4,2,5,3,5,3,2,Requer cuidado especial,Apartamento,2,1
+349,Adulto,Fêmea,Médio,3,2,4,5,3,4,5,Saudável,Apartamento,1,5
+350,Filhote,Macho,Médio,4,2,4,5,1,2,4,Tratamento pontual,Flexível,2,2
+351,Idoso,Macho,Pequeno,4,5,5,5,4,4,2,Requer cuidado especial,Flexível,2,1
+352,Idoso,Fêmea,Grande,1,2,3,2,3,5,3,Requer cuidado especial,Casa (qualquer),3,3
+353,Idoso,Fêmea,Pequeno,4,5,2,2,2,5,4,Saudável,Apartamento,3,2
+354,Idoso,Macho,Pequeno,3,2,5,3,1,3,3,Requer cuidado especial,Casa com quintal,5,5
+355,Idoso,Macho,Pequeno,3,2,4,4,3,2,2,Saudável,Apartamento,1,2
+356,Filhote,Fêmea,Médio,5,2,5,2,5,5,4,Saudável,Apartamento,5,3
+357,Adulto,Fêmea,Médio,5,1,3,3,4,1,5,Saudável,Casa com quintal,3,5
+358,Filhote,Fêmea,Pequeno,3,1,1,1,2,1,5,Requer cuidado especial,Apartamento,1,4
+359,Filhote,Fêmea,Pequeno,5,4,5,4,4,5,4,Tratamento pontual,Flexível,5,5
+360,Adulto,Fêmea,Pequeno,2,3,1,1,5,3,2,Saudável,Apartamento,5,2
+361,Filhote,Macho,Médio,2,3,1,1,3,5,1,Saudável,Casa (qualquer),2,4
+362,Idoso,Fêmea,Médio,4,3,1,2,3,2,3,Requer cuidado especial,Casa com quintal,5,3
+363,Adulto,Macho,Médio,1,5,3,4,5,4,4,Saudável,Casa com quintal,1,2
+364,Adulto,Fêmea,Médio,2,1,1,5,1,5,4,Saudável,Flexível,3,5
+365,Idoso,Fêmea,Grande,5,4,1,3,3,1,1,Tratamento pontual,Flexível,2,1
+366,Idoso,Fêmea,Grande,4,3,5,4,2,3,1,Tratamento pontual,Casa com quintal,4,1
+367,Adulto,Macho,Grande,1,4,1,1,5,4,2,Saudável,Casa com quintal,5,3
+368,Adulto,Fêmea,Pequeno,1,4,5,1,1,2,2,Saudável,Apartamento,1,2
+369,Idoso,Fêmea,Pequeno,1,2,5,4,5,5,1,Requer cuidado especial,Casa (qualquer),3,4
+370,Adulto,Macho,Médio,2,4,1,4,4,3,5,Requer cuidado especial,Flexível,4,2
+371,Filhote,Fêmea,Médio,5,3,2,3,3,4,4,Requer cuidado especial,Flexível,5,3
+372,Adulto,Fêmea,Grande,5,3,1,1,5,2,4,Requer cuidado especial,Apartamento,3,3
+373,Filhote,Macho,Grande,5,1,2,4,1,2,1,Saudável,Casa com quintal,2,1
+374,Idoso,Fêmea,Grande,4,3,3,3,4,2,1,Requer cuidado especial,Casa (qualquer),2,1
+375,Idoso,Fêmea,Pequeno,4,3,2,1,5,1,5,Saudável,Casa (qualquer),5,1
+376,Idoso,Fêmea,Pequeno,5,1,5,4,1,3,5,Requer cuidado especial,Casa (qualquer),1,5
+377,Filhote,Fêmea,Médio,4,2,5,2,2,3,2,Requer cuidado especial,Apartamento,4,1
+378,Idoso,Fêmea,Pequeno,4,5,2,3,5,2,1,Requer cuidado especial,Apartamento,4,5
+379,Filhote,Macho,Grande,3,4,3,4,1,4,4,Requer cuidado especial,Casa (qualquer),4,2
+380,Adulto,Macho,Médio,5,2,3,5,5,3,4,Requer cuidado especial,Flexível,2,1
+381,Adulto,Macho,Grande,5,1,4,4,3,5,1,Saudável,Casa (qualquer),3,3
+382,Idoso,Fêmea,Pequeno,4,5,2,3,4,4,5,Saudável,Casa com quintal,4,5
+383,Adulto,Fêmea,Pequeno,4,5,4,1,1,2,5,Saudável,Casa com quintal,1,3
+384,Adulto,Fêmea,Grande,2,2,2,2,3,2,3,Requer cuidado especial,Apartamento,4,4
+385,Adulto,Fêmea,Médio,4,5,2,3,3,1,4,Saudável,Flexível,1,5
+386,Filhote,Fêmea,Médio,1,4,4,5,1,2,3,Saudável,Casa (qualquer),2,3
+387,Idoso,Macho,Grande,2,2,1,2,2,4,3,Requer cuidado especial,Flexível,4,4
+388,Filhote,Macho,Grande,3,2,2,5,2,3,4,Requer cuidado especial,Casa com quintal,2,2
+389,Adulto,Fêmea,Pequeno,1,1,3,2,2,4,2,Tratamento pontual,Flexível,3,5
+390,Idoso,Macho,Médio,1,3,5,5,4,2,1,Saudável,Flexível,4,4
+391,Filhote,Macho,Grande,4,5,2,3,4,4,2,Requer cuidado especial,Casa (qualquer),3,3
+392,Idoso,Macho,Grande,4,4,1,3,2,3,5,Requer cuidado especial,Casa com quintal,5,5
+393,Filhote,Macho,Médio,3,3,3,4,2,3,1,Tratamento pontual,Apartamento,4,4
+394,Idoso,Macho,Médio,2,4,1,5,5,3,2,Requer cuidado especial,Apartamento,1,2
+395,Filhote,Fêmea,Grande,2,4,3,3,5,3,3,Saudável,Apartamento,4,4
+396,Idoso,Macho,Pequeno,5,4,5,3,4,2,2,Tratamento pontual,Flexível,3,3
+397,Filhote,Fêmea,Grande,5,4,4,5,3,5,4,Saudável,Flexível,5,2
+398,Adulto,Macho,Médio,4,2,1,2,3,5,4,Saudável,Casa com quintal,3,5
+399,Filhote,Fêmea,Grande,3,1,4,4,5,5,5,Saudável,Casa (qualquer),2,1
+400,Idoso,Fêmea,Pequeno,5,1,5,5,1,2,3,Tratamento pontual,Flexível,1,3
+401,Adulto,Fêmea,Pequeno,1,1,2,4,3,3,1,Requer cuidado especial,Apartamento,2,1
+402,Filhote,Fêmea,Pequeno,3,5,5,1,1,3,4,Tratamento pontual,Flexível,2,2
+403,Adulto,Macho,Pequeno,2,3,1,2,1,5,1,Tratamento pontual,Flexível,2,4
+404,Filhote,Fêmea,Grande,3,2,4,2,5,4,2,Requer cuidado especial,Flexível,3,3
+405,Filhote,Macho,Grande,3,5,2,3,3,1,1,Requer cuidado especial,Flexível,4,4
+406,Adulto,Macho,Pequeno,1,2,3,1,3,5,2,Saudável,Casa (qualquer),4,5
+407,Filhote,Fêmea,Pequeno,5,3,2,1,4,5,2,Requer cuidado especial,Casa (qualquer),3,5
+408,Adulto,Fêmea,Médio,3,3,1,2,2,5,4,Requer cuidado especial,Casa com quintal,4,4
+409,Adulto,Fêmea,Pequeno,3,4,1,3,3,5,1,Requer cuidado especial,Casa (qualquer),1,5
+410,Filhote,Macho,Grande,4,5,4,2,3,3,1,Requer cuidado especial,Apartamento,5,3
+411,Filhote,Macho,Pequeno,4,4,4,2,2,2,3,Saudável,Casa (qualquer),4,1
+412,Adulto,Macho,Grande,5,1,3,5,5,5,2,Requer cuidado especial,Casa (qualquer),3,1
+413,Adulto,Macho,Médio,3,1,2,3,1,2,3,Requer cuidado especial,Flexível,2,2
+414,Idoso,Macho,Médio,5,2,4,3,1,1,5,Requer cuidado especial,Apartamento,2,5
+415,Idoso,Fêmea,Médio,4,4,1,3,4,4,3,Saudável,Apartamento,1,1
+416,Filhote,Macho,Pequeno,2,4,4,3,2,2,5,Requer cuidado especial,Flexível,4,5
+417,Idoso,Macho,Pequeno,3,1,3,5,1,4,5,Tratamento pontual,Casa (qualquer),1,5
+418,Idoso,Fêmea,Médio,2,5,2,1,3,5,4,Saudável,Casa com quintal,1,3
+419,Filhote,Fêmea,Grande,5,1,4,2,2,3,1,Saudável,Flexível,4,3
+420,Adulto,Macho,Pequeno,1,2,2,5,5,5,1,Tratamento pontual,Casa (qualquer),4,3
+421,Idoso,Fêmea,Grande,3,3,1,2,4,5,1,Requer cuidado especial,Casa com quintal,4,2
+422,Adulto,Macho,Pequeno,5,5,4,3,1,4,4,Saudável,Casa (qualquer),5,3
+423,Filhote,Macho,Pequeno,2,2,2,4,5,5,1,Tratamento pontual,Flexível,1,4
+424,Filhote,Fêmea,Pequeno,5,2,3,4,2,1,3,Saudável,Casa com quintal,2,4
+425,Adulto,Fêmea,Grande,4,2,4,5,3,2,1,Requer cuidado especial,Casa (qualquer),1,3
+426,Idoso,Macho,Médio,2,1,4,2,1,4,5,Tratamento pontual,Casa com quintal,5,1
+427,Filhote,Macho,Pequeno,4,5,5,5,5,1,4,Tratamento pontual,Casa com quintal,4,3
+428,Filhote,Fêmea,Pequeno,2,5,1,3,2,3,1,Tratamento pontual,Casa (qualquer),2,1
+429,Adulto,Macho,Médio,2,2,3,5,1,2,3,Requer cuidado especial,Flexível,3,1
+430,Idoso,Macho,Médio,1,5,5,3,3,3,4,Saudável,Casa (qualquer),1,4
+431,Filhote,Fêmea,Médio,5,2,5,4,3,4,4,Saudável,Casa com quintal,1,1
+432,Filhote,Fêmea,Pequeno,3,5,2,1,4,4,3,Saudável,Casa (qualquer),4,4
+433,Filhote,Fêmea,Grande,2,3,2,3,1,5,3,Requer cuidado especial,Casa com quintal,4,2
+434,Idoso,Fêmea,Grande,5,3,5,4,4,5,2,Requer cuidado especial,Flexível,5,1
+435,Idoso,Fêmea,Grande,3,5,4,5,2,3,4,Requer cuidado especial,Flexível,1,1
+436,Filhote,Macho,Médio,1,2,4,1,3,4,3,Requer cuidado especial,Apartamento,1,4
+437,Adulto,Fêmea,Grande,3,2,4,4,2,2,2,Saudável,Casa com quintal,1,3
+438,Idoso,Fêmea,Pequeno,5,2,1,1,1,2,4,Tratamento pontual,Flexível,5,3
+439,Adulto,Fêmea,Grande,3,4,3,3,1,5,4,Requer cuidado especial,Flexível,2,3
+440,Adulto,Fêmea,Pequeno,1,2,3,4,1,1,2,Requer cuidado especial,Casa com quintal,4,3
+441,Idoso,Macho,Pequeno,2,2,4,5,2,5,1,Requer cuidado especial,Flexível,2,2
+442,Idoso,Fêmea,Médio,2,5,5,3,2,5,1,Tratamento pontual,Casa (qualquer),4,5
+443,Filhote,Fêmea,Médio,3,5,4,5,2,2,4,Requer cuidado especial,Apartamento,2,3
+444,Idoso,Fêmea,Grande,5,5,2,5,3,2,1,Tratamento pontual,Apartamento,1,1
+445,Idoso,Fêmea,Grande,5,5,3,4,2,2,4,Saudável,Casa com quintal,2,1
+446,Filhote,Macho,Médio,3,3,3,1,5,4,1,Requer cuidado especial,Casa com quintal,5,4
+447,Idoso,Macho,Grande,2,3,2,5,1,1,5,Requer cuidado especial,Apartamento,5,4
+448,Idoso,Macho,Médio,5,5,3,4,5,4,4,Saudável,Casa com quintal,5,2
+449,Idoso,Macho,Pequeno,5,1,5,4,5,3,5,Tratamento pontual,Apartamento,1,5
+450,Idoso,Macho,Médio,2,3,4,1,3,2,3,Requer cuidado especial,Casa (qualquer),2,5
+451,Adulto,Macho,Pequeno,1,4,2,1,1,2,2,Saudável,Casa com quintal,3,4
+452,Idoso,Macho,Médio,1,3,2,3,1,2,2,Requer cuidado especial,Flexível,4,2
+453,Filhote,Fêmea,Pequeno,2,3,5,3,5,1,4,Requer cuidado especial,Apartamento,1,4
+454,Idoso,Fêmea,Grande,5,2,4,4,5,2,2,Requer cuidado especial,Apartamento,2,4
+455,Idoso,Macho,Grande,1,3,5,4,4,2,4,Tratamento pontual,Flexível,5,2
+456,Idoso,Fêmea,Médio,3,2,1,1,1,3,1,Requer cuidado especial,Casa com quintal,3,2
+457,Idoso,Fêmea,Médio,4,5,2,2,4,5,5,Saudável,Casa com quintal,3,2
+458,Filhote,Fêmea,Pequeno,2,4,2,2,1,5,4,Saudável,Flexível,3,2
+459,Idoso,Fêmea,Médio,5,1,4,2,1,4,1,Tratamento pontual,Casa (qualquer),5,1
+460,Adulto,Fêmea,Pequeno,4,2,3,2,4,3,5,Saudável,Flexível,3,3
+461,Idoso,Fêmea,Pequeno,1,4,5,3,2,5,2,Saudável,Casa (qualquer),3,2
+462,Filhote,Fêmea,Grande,5,3,4,5,2,1,5,Requer cuidado especial,Casa com quintal,1,4
+463,Idoso,Fêmea,Médio,1,3,1,3,4,4,4,Requer cuidado especial,Flexível,4,4
+464,Adulto,Macho,Pequeno,1,2,5,5,3,4,4,Saudável,Flexível,2,2
+465,Idoso,Macho,Grande,5,3,4,4,4,5,3,Requer cuidado especial,Flexível,2,3
+466,Idoso,Fêmea,Médio,3,2,3,1,1,1,5,Tratamento pontual,Casa (qualquer),2,4
+467,Adulto,Fêmea,Médio,3,1,3,1,1,4,2,Tratamento pontual,Apartamento,1,2
+468,Filhote,Macho,Grande,5,2,3,2,2,4,5,Tratamento pontual,Casa (qualquer),4,1
+469,Adulto,Macho,Médio,4,1,4,1,4,1,2,Saudável,Casa com quintal,5,1
+470,Filhote,Macho,Pequeno,3,1,2,4,3,2,5,Tratamento pontual,Apartamento,2,4
+471,Adulto,Macho,Pequeno,4,5,5,4,3,5,1,Saudável,Apartamento,3,4
+472,Idoso,Fêmea,Pequeno,4,5,4,4,5,1,4,Requer cuidado especial,Casa com quintal,1,1
+473,Adulto,Macho,Médio,1,4,5,2,1,3,3,Tratamento pontual,Apartamento,1,1
+474,Filhote,Macho,Grande,4,5,5,4,2,2,1,Requer cuidado especial,Apartamento,3,2
+475,Adulto,Fêmea,Médio,3,4,1,5,3,4,3,Requer cuidado especial,Casa (qualquer),3,4
+476,Adulto,Fêmea,Pequeno,3,4,3,1,4,5,1,Tratamento pontual,Casa (qualquer),4,4
+477,Filhote,Macho,Médio,1,4,4,5,4,3,2,Saudável,Apartamento,2,1
+478,Adulto,Fêmea,Pequeno,3,1,3,4,2,1,4,Saudável,Casa (qualquer),1,2
+479,Filhote,Macho,Pequeno,2,1,1,5,4,3,5,Saudável,Flexível,5,3
+480,Filhote,Macho,Grande,4,1,1,3,3,1,2,Tratamento pontual,Flexível,2,4
+481,Idoso,Fêmea,Médio,1,3,2,2,1,3,4,Tratamento pontual,Casa (qualquer),4,1
+482,Idoso,Macho,Grande,5,5,5,5,3,4,4,Tratamento pontual,Casa com quintal,1,4
+483,Filhote,Fêmea,Pequeno,2,4,2,3,1,3,1,Tratamento pontual,Apartamento,1,5
+484,Idoso,Fêmea,Médio,2,2,1,4,5,1,3,Tratamento pontual,Casa com quintal,4,4
+485,Adulto,Fêmea,Pequeno,1,5,2,5,2,2,1,Saudável,Apartamento,2,5
+486,Adulto,Macho,Grande,1,5,1,1,3,2,5,Tratamento pontual,Casa (qualquer),1,1
+487,Idoso,Macho,Médio,3,2,5,4,4,3,4,Saudável,Casa (qualquer),5,5
+488,Filhote,Macho,Pequeno,1,2,3,1,1,2,1,Requer cuidado especial,Flexível,5,2
+489,Idoso,Fêmea,Pequeno,1,2,3,3,4,4,1,Requer cuidado especial,Flexível,1,3
+490,Adulto,Macho,Grande,3,5,1,2,3,5,1,Requer cuidado especial,Apartamento,2,4
+491,Idoso,Fêmea,Pequeno,5,2,4,3,4,5,3,Requer cuidado especial,Apartamento,3,1
+492,Adulto,Macho,Médio,1,2,3,5,4,1,5,Saudável,Apartamento,3,2
+493,Idoso,Macho,Médio,1,4,4,4,5,5,5,Saudável,Flexível,2,5
+494,Idoso,Fêmea,Pequeno,1,5,5,4,1,2,1,Requer cuidado especial,Casa (qualquer),4,1
+495,Idoso,Fêmea,Médio,4,3,4,2,4,5,1,Tratamento pontual,Casa com quintal,3,4
+496,Filhote,Macho,Grande,1,3,5,2,2,3,4,Requer cuidado especial,Flexível,3,1
+497,Idoso,Fêmea,Grande,5,2,1,1,5,4,5,Requer cuidado especial,Casa com quintal,5,1
+498,Adulto,Macho,Pequeno,4,4,2,1,4,2,3,Requer cuidado especial,Casa com quintal,1,1
+499,Adulto,Fêmea,Médio,3,4,1,3,5,4,2,Tratamento pontual,Flexível,4,1
+500,Filhote,Macho,Pequeno,5,5,1,1,4,2,2,Requer cuidado especial,Apartamento,4,5

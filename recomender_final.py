@@ -5,8 +5,17 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.compose import ColumnTransformer
 
 def preparar_dados(df_tutores, df_pets):
-    # --- Engenharia de Features no DATAFRAME DE TUTORES ---
-    # Este passo continua importante para "traduzir" o contexto do tutor em preferências numéricas.
+    """
+    Versão final que vetoriza TODOS os campos correspondentes.
+    1. Faz a engenharia de features para criar colunas compatíveis.
+    2. Garante que ambos os dataframes tenham colunas com nomes idênticos.
+    3. Vetoriza o perfil completo.
+    """
+    
+    # --- 1. ENGENHARIA DE FEATURES (TUTORES) ---
+    # Traduz o contexto do tutor em preferências que espelham as características do pet.
+    
+    # Mapeamentos de contexto para escalas (personalidade)
     mapa_criancas = {'Não': 1, 'Crianças maiores': 4, 'Crianças pequenas': 5}
     df_tutores['sociabilidade_criancas'] = df_tutores['tem_criancas'].map(mapa_criancas)
     df_tutores['sociabilidade_caes'] = df_tutores['possui_caes'].apply(lambda x: 5 if x else 3)
@@ -14,17 +23,31 @@ def preparar_dados(df_tutores, df_pets):
     df_tutores['treinabilidade'] = df_tutores['experiencia_com_pets']
     df_tutores['necessidade_companhia'] = df_tutores['tempo_disponivel']
     
-    # --- Seleção Final das Colunas para o "Match" ---
-    # Esta lista define exatamente quais características serão comparadas.
-    colunas_de_match = [
-        'idade', 'sexo', 'porte', 'nivel_queda_pelo', 'nivel_latido', 
-        'sociabilidade_gatos', 'sociabilidade_caes', 'sociabilidade_criancas', 
-        'instinto_guarda', 'nivel_energia', 'necessidade_companhia', 'treinabilidade'
-    ]
-    perfil_pet = df_pets[colunas_de_match]
-    perfil_tutor = df_tutores[colunas_de_match] # Usamos df_tutores diretamente, sem renomear!
+    # Mapeamentos de contexto para restrições (ambiente, saúde)
+    # Renomeamos 'tipo_moradia' para 'ambiente_adequado' para o match direto
+    df_tutores = df_tutores.rename(columns={'tipo_moradia': 'ambiente_adequado'})
+    
+    # Criamos uma preferência de saúde baseada na disposição a necessidades especiais
+    df_tutores['saude'] = df_tutores['disposicao_necessidades_especiais'].apply(
+        lambda x: 'Aceita qualquer estado' if x else 'Saudável'
+    )
+    # No lado do pet, vamos garantir que o valor 'Saudável' também exista.
+    # (No nosso gerador, ele já existe, então está tudo bem).
 
-    # --- Vetorização (O restante do código permanece o mesmo) ---
+    
+    # --- 3. SELEÇÃO DE COLUNAS E VETORIZAÇÃO ---
+    # Agora, selecionamos todas as colunas que devem existir em ambos os perfis
+    colunas_de_match = [
+        'idade', 'sexo', 'porte', 'nivel_queda_pelo', 'nivel_latido', 'sociabilidade_gatos',
+        'sociabilidade_caes', 'sociabilidade_criancas', 'instinto_guarda', 'nivel_energia',
+        'saude', 'ambiente_adequado', 'necessidade_companhia', 'treinabilidade'
+    ]
+    
+    # Garantir que ambas as tabelas tenham todas as colunas necessárias para o pré-processador
+    perfil_pet = df_pets[colunas_de_match]
+    perfil_tutor = df_tutores[colunas_de_match]
+    
+    # O resto da vetorização funciona como antes, pois as tabelas agora são idênticas na estrutura
     colunas_categoricas = perfil_pet.select_dtypes(include=['object', 'category']).columns.tolist()
     colunas_escala = perfil_pet.select_dtypes(include=['int64', 'float64']).columns.tolist()
 
@@ -36,8 +59,11 @@ def preparar_dados(df_tutores, df_pets):
         remainder='drop'
     )
     
-    preprocessor.fit(perfil_pet)
+    # Treinamos com a união de todos os dados para aprender todas as categorias possíveis
+    df_combined_para_fit = pd.concat([perfil_pet, perfil_tutor], ignore_index=True)
+    preprocessor.fit(df_combined_para_fit)
     
+    # Transformamos cada um separadamente
     pets_vetorizados_np = preprocessor.transform(perfil_pet)
     tutores_vetorizados_np = preprocessor.transform(perfil_tutor)
     
@@ -45,10 +71,11 @@ def preparar_dados(df_tutores, df_pets):
     pets_vec = pd.DataFrame(pets_vetorizados_np, index=df_pets['pet_id'], columns=feature_names)
     tutores_vec = pd.DataFrame(tutores_vetorizados_np, index=df_tutores['user_id'], columns=feature_names)
     
-    print("Vetorização concluída com sucesso!")
+    print("Vetorização de TODAS as colunas concluída com sucesso!")
     return tutores_vec, pets_vec
 
 def recomendar_cosseno(id_tutor, df_tutores_vec, df_pets_vec, top_n=5):
+    # Esta função não precisa de nenhuma alteração
     if id_tutor not in df_tutores_vec.index:
         return pd.Series()
         
@@ -59,6 +86,7 @@ def recomendar_cosseno(id_tutor, df_tutores_vec, df_pets_vec, top_n=5):
     return pets_recomendados.head(top_n)
 
 # --- BLOCO PRINCIPAL DE EXECUÇÃO ---
+# Nenhuma alteração necessária aqui
 try:
     df_tutores_raw = pd.read_csv('tutores_final.csv')
     df_pets_raw = pd.read_csv('pets_final.csv')
@@ -66,6 +94,7 @@ try:
     
     tutores_vec, pets_vec = preparar_dados(df_tutores_raw.copy(), df_pets_raw.copy())
     
+    # O restante do código para gerar o CSV de recomendações continua o mesmo...
     print("\nIniciando geração de recomendações para TODOS os tutores...")
     todas_as_recomendacoes = []
     total_tutores = len(df_tutores_raw)
@@ -87,8 +116,7 @@ try:
             })
 
     df_recomendacoes_finais = pd.DataFrame(todas_as_recomendacoes)
-
-    output_filename = 'recomendacoes_cosseno.csv'
+    output_filename = 'recomendacoes_cosseno_completas.csv'
     df_recomendacoes_finais.to_csv(output_filename, index=False, encoding='utf-8')
     
     print(f"\nPROCESSO CONCLUÍDO!")

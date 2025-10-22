@@ -19,7 +19,7 @@ for pet_id in range(1, NUM_PETS + 1):
         'instinto_guarda': random.randint(1, 5),
         'nivel_energia': random.randint(1, 5),
         'saude': random.choice(['Saudável', 'Tratamento pontual', 'Requer cuidado especial']), 
-        'ambiente_adequado': random.choice(['Casa com quintal', 'Apartamento', 'Flexível', 'Casa (qualquer)']), 
+        'moradia': random.choice(['Casa com quintal', 'Apartamento', 'Flexível', 'Casa (qualquer)']), 
         'necessidade_companhia': random.randint(1, 5),
         'treinabilidade': random.randint(1, 5) 
     })

@@ -9,7 +9,7 @@ for user_id in range(1, NUM_TUTORES + 1):
     tutores_data.append(
         {
             "user_id": user_id,
-            "tipo_moradia": random.choice(["Casa com quintal", "Casa sem quintal", "Apartamento"]),
+            "moradia": random.choice(["Casa com quintal", "Casa sem quintal", "Apartamento"]),
             "ambiente_casa": random.choice(["Calmo e silencioso", "Pouco movimento", "Movimentado com visitas"]),
             "possui_caes": random.choice([True, False]), 
             "possui_gatos": random.choice([True, False]),  

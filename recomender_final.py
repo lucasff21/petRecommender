@@ -22,11 +22,7 @@ def preparar_dados(df_tutores, df_pets):
     df_tutores['sociabilidade_gatos'] = df_tutores['possui_gatos'].apply(lambda x: 5 if x else 3)
     df_tutores['treinabilidade'] = df_tutores['experiencia_com_pets']
     df_tutores['necessidade_companhia'] = df_tutores['tempo_disponivel']
-    
-    # Mapeamentos de contexto para restrições (ambiente, saúde)
-    # Renomeamos 'tipo_moradia' para 'ambiente_adequado' para o match direto
-    df_tutores = df_tutores.rename(columns={'tipo_moradia': 'ambiente_adequado'})
-    
+        
     # Criamos uma preferência de saúde baseada na disposição a necessidades especiais
     df_tutores['saude'] = df_tutores['disposicao_necessidades_especiais'].apply(
         lambda x: 'Aceita qualquer estado' if x else 'Saudável'
@@ -40,7 +36,7 @@ def preparar_dados(df_tutores, df_pets):
     colunas_de_match = [
         'idade', 'sexo', 'porte', 'nivel_queda_pelo', 'nivel_latido', 'sociabilidade_gatos',
         'sociabilidade_caes', 'sociabilidade_criancas', 'instinto_guarda', 'nivel_energia',
-        'saude', 'ambiente_adequado', 'necessidade_companhia', 'treinabilidade'
+        'saude', 'moradia', 'necessidade_companhia', 'treinabilidade'
     ]
     
     # Garantir que ambas as tabelas tenham todas as colunas necessárias para o pré-processador

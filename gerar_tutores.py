@@ -9,16 +9,17 @@ for user_id in range(1, NUM_TUTORES + 1):
     tutores_data.append(
         {
             "user_id": user_id,
-            "moradia": random.choice(["Casa com quintal", "Casa sem quintal", "Apartamento"]),
-            "ambiente_casa": random.choice(["Calmo e silencioso", "Pouco movimento", "Movimentado com visitas"]),
-            "possui_caes": random.choice([True, False]), 
-            "possui_gatos": random.choice([True, False]),  
-            "tem_criancas": random.choice(["Não", "Crianças pequenas", "Crianças maiores"]),  
+            # 1=Kitnet, 2=Apto Pequeno, 3=Apto Grande, 4=Casa s/ Quintal, 5=Casa c/ Quintal
+            "moradia": random.randint(1, 5),
+            #"ambiente_casa": random.choice(["Calmo e silencioso", "Pouco movimento", "Movimentado com visitas"]),
+            "possui_caes": random.choice([True, False]),
+            "possui_gatos": random.choice([True, False]),
+            "tem_criancas": random.choice(["Não", "Crianças pequenas", "Crianças maiores"]),
             "experiencia_com_pets": random.randint(1, 5),
             "tempo_disponivel": random.randint(1, 5),
             "disposicao_necessidades_especiais": random.choice([True, False]),
             "idade": random.choice(["Filhote", "Adulto", "Idoso", "Indiferente"]),
-            "porte": random.choice(["Pequeno", "Médio", "Grande", "Indiferente"]),
+            "porte": random.randint(1, 3), # 1=Pequeno, 2=Médio, 3=Grande
             "sexo": random.choice(["Macho", "Fêmea", "Indiferente"]),
             "nivel_energia": random.randint(1, 5),
             "instinto_guarda": random.randint(1, 5),

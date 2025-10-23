@@ -5,16 +5,7 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.compose import ColumnTransformer
 
 def preparar_dados(df_tutores, df_pets):
-    """
-    Versão final que vetoriza TODOS os campos correspondentes.
-    1. Faz a engenharia de features para criar colunas compatíveis.
-    2. Garante que ambos os dataframes tenham colunas com nomes idênticos.
-    3. Vetoriza o perfil completo.
-    """
-    
-    # --- 1. ENGENHARIA DE FEATURES (TUTORES) ---
-    # Traduz o contexto do tutor em preferências que espelham as características do pet.
-    
+ 
     # Mapeamentos de contexto para escalas (personalidade)
     mapa_criancas = {'Não': 1, 'Crianças maiores': 4, 'Crianças pequenas': 5}
     df_tutores['sociabilidade_criancas'] = df_tutores['tem_criancas'].map(mapa_criancas)
@@ -27,10 +18,8 @@ def preparar_dados(df_tutores, df_pets):
     df_tutores['saude'] = df_tutores['disposicao_necessidades_especiais'].apply(
         lambda x: 'Aceita qualquer estado' if x else 'Saudável'
     )
-    # No lado do pet, vamos garantir que o valor 'Saudável' também exista.
-    # (No nosso gerador, ele já existe, então está tudo bem).
+ 
 
-    
     # --- 3. SELEÇÃO DE COLUNAS E VETORIZAÇÃO ---
     # Agora, selecionamos todas as colunas que devem existir em ambos os perfis
     colunas_de_match = [
